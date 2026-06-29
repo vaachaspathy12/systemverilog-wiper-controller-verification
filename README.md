@@ -160,6 +160,17 @@ This project demonstrates:
 - Verification Environment Development
 
 ---
+## Simulation Results
+
+The complete simulation log is available here:
+
+- 📄 [Simulation Log](simulation_log.txt)
+
+Verification Summary:
+Total Tests : 20
+Passed : 20
+Failed : 0
+
 
 ## Author
 
