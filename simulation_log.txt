@@ -1,0 +1,87 @@
+[2026-06-29 13:13:04 UTC] xrun -Q -unbuffered '-timescale' '1ns/1ns' '-sysv' '-access' '+rw' design.sv testbench.sv  
+TOOL:	xrun	25.03-s001: Started on Jun 29, 2026 at 09:13:05 EDT
+xrun: 25.03-s001: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
+	Top level design units:
+		$unit_0x67f934e9
+		tb_top
+Loading snapshot worklib.tb_top:sv .................... Done
+SVSEED default: 1
+xcelium> source /xcelium25.03/tools/xcelium/files/xmsimrc
+xcelium> run
+[GEN] IGN=1 RAIN=0 MODE=0 MOTOR=0 SPEED=0
+[GEN] IGN=1 RAIN=0 MODE=1 MOTOR=0 SPEED=0
+[GEN] IGN=1 RAIN=1 MODE=0 MOTOR=0 SPEED=0
+[GEN] IGN=1 RAIN=1 MODE=1 MOTOR=0 SPEED=0
+[GEN] IGN=0 RAIN=1 MODE=2 MOTOR=0 SPEED=0
+[GEN] IGN=1 RAIN=1 MODE=0 MOTOR=0 SPEED=0
+[GEN] IGN=1 RAIN=0 MODE=3 MOTOR=0 SPEED=0
+[GEN] IGN=0 RAIN=1 MODE=3 MOTOR=0 SPEED=0
+[GEN] IGN=1 RAIN=1 MODE=2 MOTOR=0 SPEED=0
+[GEN] IGN=1 RAIN=0 MODE=0 MOTOR=0 SPEED=0
+[GEN] IGN=1 RAIN=0 MODE=3 MOTOR=0 SPEED=0
+[GEN] IGN=0 RAIN=1 MODE=3 MOTOR=0 SPEED=0
+[GEN] IGN=0 RAIN=0 MODE=2 MOTOR=0 SPEED=0
+[GEN] IGN=0 RAIN=1 MODE=2 MOTOR=0 SPEED=0
+[GEN] IGN=0 RAIN=0 MODE=0 MOTOR=0 SPEED=0
+[GEN] IGN=1 RAIN=0 MODE=2 MOTOR=0 SPEED=0
+[GEN] IGN=0 RAIN=1 MODE=2 MOTOR=0 SPEED=0
+[GEN] IGN=0 RAIN=1 MODE=1 MOTOR=0 SPEED=0
+[GEN] IGN=1 RAIN=1 MODE=2 MOTOR=0 SPEED=0
+[GEN] IGN=0 RAIN=1 MODE=0 MOTOR=0 SPEED=0
+[MON] IGN=1 RAIN=0 MODE=1 MOTOR=0 SPEED=1
+[PASS] Expected(M=0 S=1) Actual(M=0 S=1)
+[MON] IGN=1 RAIN=1 MODE=0 MOTOR=0 SPEED=0
+[PASS] Expected(M=0 S=0) Actual(M=0 S=0)
+[MON] IGN=1 RAIN=1 MODE=1 MOTOR=1 SPEED=1
+[PASS] Expected(M=1 S=1) Actual(M=1 S=1)
+[MON] IGN=0 RAIN=1 MODE=2 MOTOR=0 SPEED=0
+[PASS] Expected(M=0 S=0) Actual(M=0 S=0)
+[MON] IGN=1 RAIN=1 MODE=0 MOTOR=0 SPEED=0
+[PASS] Expected(M=0 S=0) Actual(M=0 S=0)
+[MON] IGN=1 RAIN=0 MODE=3 MOTOR=1 SPEED=3
+[PASS] Expected(M=1 S=3) Actual(M=1 S=3)
+[MON] IGN=0 RAIN=1 MODE=3 MOTOR=0 SPEED=0
+[PASS] Expected(M=0 S=0) Actual(M=0 S=0)
+[MON] IGN=1 RAIN=1 MODE=2 MOTOR=1 SPEED=2
+[PASS] Expected(M=1 S=2) Actual(M=1 S=2)
+[MON] IGN=1 RAIN=0 MODE=0 MOTOR=0 SPEED=0
+[PASS] Expected(M=0 S=0) Actual(M=0 S=0)
+[MON] IGN=1 RAIN=0 MODE=3 MOTOR=1 SPEED=3
+[PASS] Expected(M=1 S=3) Actual(M=1 S=3)
+[MON] IGN=0 RAIN=0 MODE=2 MOTOR=0 SPEED=0
+[PASS] Expected(M=0 S=0) Actual(M=0 S=0)
+[MON] IGN=0 RAIN=1 MODE=2 MOTOR=0 SPEED=0
+[PASS] Expected(M=0 S=0) Actual(M=0 S=0)
+[MON] IGN=0 RAIN=0 MODE=0 MOTOR=0 SPEED=0
+[PASS] Expected(M=0 S=0) Actual(M=0 S=0)
+[MON] IGN=1 RAIN=0 MODE=2 MOTOR=1 SPEED=2
+[PASS] Expected(M=1 S=2) Actual(M=1 S=2)
+[MON] IGN=0 RAIN=1 MODE=2 MOTOR=0 SPEED=0
+[PASS] Expected(M=0 S=0) Actual(M=0 S=0)
+[MON] IGN=0 RAIN=1 MODE=1 MOTOR=0 SPEED=0
+[PASS] Expected(M=0 S=0) Actual(M=0 S=0)
+[MON] IGN=1 RAIN=1 MODE=2 MOTOR=1 SPEED=2
+[PASS] Expected(M=1 S=2) Actual(M=1 S=2)
+[MON] IGN=0 RAIN=1 MODE=0 MOTOR=0 SPEED=0
+[PASS] Expected(M=0 S=0) Actual(M=0 S=0)
+[MON] IGN=0 RAIN=1 MODE=0 MOTOR=0 SPEED=0
+[PASS] Expected(M=0 S=0) Actual(M=0 S=0)
+[MON] IGN=0 RAIN=1 MODE=0 MOTOR=0 SPEED=0
+[PASS] Expected(M=0 S=0) Actual(M=0 S=0)
+
+===================================
+      VERIFICATION SUMMARY
+===================================
+Total Tests : 20
+Passed      : 20
+Failed      : 0
+===================================
+
+===================================
+ AUTOMOTIVE WIPER VERIFICATION DONE
+===================================
+Simulation complete via $finish(1) at time 240 NS + 0
+./polymorphism.sv:41         $finish;
+xcelium> exit
+TOOL:	xrun	25.03-s001: Exiting on Jun 29, 2026 at 09:13:06 EDT  (total: 00:00:01)
+Done
